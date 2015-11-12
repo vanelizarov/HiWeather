@@ -18,7 +18,7 @@ class ViewController : UIViewController, GADBannerViewDelegate {
 
 	}
 
-	func didFailToReceiveAdWithError(adView bannerView: GADBannerView, error: GADRequestError) {
+	func adView(view: GADBannerView!, didFailToReceiveAdWithError error: GADRequestError!) {
 
 		print("Failed to receive ad with error: \(error.localizedDescription)")
 
