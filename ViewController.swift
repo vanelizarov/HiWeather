@@ -21,6 +21,7 @@ class ViewController : UIViewController, GADBannerViewDelegate {
 	func adView(view: GADBannerView!, didFailToReceiveAdWithError error: GADRequestError!) {
 
 		print("Failed to receive ad with error: \(error.localizedDescription)")
+		self.requestaAdSpecifiedOnLocation(HWLManager.sharedInstanse.currentLocation)
 
 	}
 
