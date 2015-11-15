@@ -1,13 +1,11 @@
-import UIKit 
-import GoogleMobileads
-
-class ViewController : UIViewController, GADBannerViewDelegate {
+import UIKit
+import GoogleMobileAds
 
 	override func viewDidLoad() {
 
 		super.viewDidLoad()
 		//...
-
+		
 	}
 
 	//...
